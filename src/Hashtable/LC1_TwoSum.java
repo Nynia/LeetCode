@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LC1_TwoSum {
+    /*
+        Time complexity : O(n)
+        Space complexity : O(n)
+     */
     public static class Solution {
         public int[] twoSum(int[] numbers, int target) {
             Map<Integer,Integer> map = new HashMap<>();
